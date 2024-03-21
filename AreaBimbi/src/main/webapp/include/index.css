@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+	background: linear-gradient(to bottom, #fff 10%, #f5f5dc 50%, #8B4513 100%);
+}
+
+.myHome1 {
+	font-size: xx-large;
+}
+
+.logo {
+	height: 450px;
+	width: 450px;
+}
+
+@keyframes animazioneBenvenuto {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.benvenuto{
+	text-align: center;
+    color: rgb(118, 74, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: animazioneBenvenuto 0.5s ease-in-out;
+}
